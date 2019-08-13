@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Checkout_Payment</name>
+    <version>0.0.1</version>
+    <stability>stable</stability>
+    <license>OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This extension will allow your customers to use Checkout.com payment gateway.</summary>
+    <description>This payment module allow you to integrate your store with Checkout.com, your customers will be able to use checkout.com to complete their orders.</description>
+    <notes>Checkout.com Payment Gateway first release 0.0.1 </notes>
+    <authors><author><name>EvoPin</name><user>EvoPin</user><email>evopin@gmail.com</email></author></authors>
+    <date>2014-01-19</date>
+    <time>10:20:40</time>
+    <contents><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="evopin"><dir name="checkoutcom"><dir name="form"><file name="paymentform.phtml" hash="16d0f09bf93ebcd9d1c9e468cad8e412"/></dir></dir></dir></dir></dir></dir></dir></target><target name="magecommunity"><dir name="Evopin"><dir name="Checkoutcom"><dir name="Block"><dir name="Form"><file name="Paymentform.php" hash="4e644a739bce461568e0ae494d8056ec"/></dir></dir><dir name="etc"><file name="config.xml" hash="749ea8a6c605622da48e91733f5afef7"/><file name="system.xml" hash="dba92630937a3c5cdcddb8627a295818"/></dir><dir name="Helper"><file name="Data.php" hash="2640d7a044fc5a05588da422df827ce9"/></dir><dir name="Model"><file name="Payment.php" hash="d85260e92750f643573a6ecc4667ab80"/><dir name="Source"><file name="Cctype.php" hash="41b4e749a1b05a68d190160cb5edabdc"/><file name="PaymentAction.php" hash="fc9543a98585a5848cb0193916e2ba05"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

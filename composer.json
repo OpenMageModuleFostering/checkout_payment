@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Checkout_Payment",
+    "type": "magento-module",
+    "license": "OSL",
+    "homepage": "",
+    "description": "This extension will allow your customers to use Checkout.com payment gateway.",
+    "authors": [
+    {
+        "name": "EvoPin",
+        "email": "evopin@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
